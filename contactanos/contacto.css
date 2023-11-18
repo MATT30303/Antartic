@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #333;
+}
+body{
+    background-image: url(../images/fondoContacto.png);
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e2e9f0;
+}
+
+#btn{
+    font-size: large;
+    padding: 5px 5px;
+    margin: 10px 10px;
+    margin-right: 5%;
+    border: solid thin #b5ccdc;
+    border-radius: 5px;
+    background-color: #b5ccdc;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.3);
+    transition: 0.4s ease;
+}
+#btn:hover{
+    cursor: pointer;
+    background-color: transparent;
+}
+
+#contacto{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right:15%;
+}
+form{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: grid;
+    background-color: #e2e9f0;
+    padding: 15px;
+}
+#info{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 15px;
+    background-color: #b5ccdc;
+}
+input{
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+input:focus{
+    outline: none;
+}
+textarea{
+    width: 80%;
+    margin-bottom: 20px;
+}
+textarea:focus{
+    outline: none;
+}
+button{
+    background-color: #b5ccdc;
+    width: 25%;
+    color: #333;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+button:hover{
+    background-color: transparent;
+    border: solid thin #b5ccdc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+#Nuestos-contactos-F{
+    padding-top: 50px;
+}
+#Nuestos-contactos-A{
+    padding-top: 50px;
+}
