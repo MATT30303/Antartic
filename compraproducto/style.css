@@ -18,6 +18,7 @@ img{
 }
 
 header{
+    background-color: #e2e9f0;
     display: flex;
     align-items: center;
     padding: 30px;
@@ -26,7 +27,7 @@ header{
 
 .container-title{
     padding: 30px;
-    background-color: #e2e9f0;
+    background-color:#b5ccdc;
     margin-bottom: 50px;
     color: #333;
 }
@@ -263,9 +264,8 @@ main{
     margin-bottom: 15px;
 }
 .card-img img{
-    height: 400px;
+    height: 200px;
     object-fit: cover;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 .info-card{
@@ -278,7 +278,7 @@ main{
     font-weight: 300;
     line-height: 1.4;
 }
-.text-product h3{
+.text-product a{
     color: inherit;
     font-weight: inherit;
     font-size: 15px;
@@ -289,7 +289,7 @@ main{
 
 footer{
     padding: 30px;
-    background-color: #e2e9f0;
+    background-color: #b5ccdc;
     margin-top: 50px;
     color: #333;
 }

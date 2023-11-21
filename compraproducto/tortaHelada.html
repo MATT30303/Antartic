@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/images/el_goatv2.ico">
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>TARTA HELADA</title>
+</head>
+<body>
+    <header>
+        <img src="/images/el_goat-removebg-preview.png">
+    </header>
+
+    <div class="container-title">Helados</div>
+
+    <main>
+        <div class="container-img">
+            <img src="/images/tortaHelada.png">
+        </div>
+        <div class="container-info-product">
+            <h1>Tarta Helada</h1>
+            <div class="container-price">
+                <span>$200</span>
+                <i class='bx bx-chevron-right'></i>
+            </div>
+            <div class="container-details-product">
+                <div class="form-group">
+                    <label for="sabor">Sabores</label>
+                    <select name="sabor" id="sabor">
+                        <option disabled selected value="">Escoge el Sabor</option>
+                        <option value="Frutilla">Oreo</option>
+                        <option value="Limon">Milka</option>
+                        <option value="Chocolate">Dulce de Leche</option>
+                    </select>
+                </div>
+                <button class="btn-clean">Limpiar</button>
+            </div>
+            <div class="container-add-cart">
+                <div class="container-quantity">
+                    <input type="number"placeholder="1" value="1" min="1" class="input-quantity">
+                    <div class="btn-increment-decrement">
+                        <i class='bx bx-chevron-up' id="increment"></i>
+                        <i class='bx bx-chevron-down' id="decrement"></i>
+                    </div>
+                </div>
+                <button class="btn-add-to-cart">
+                    <i class='bx bx-plus' ></i>
+                    Añadir al carrito
+                </button>
+                <button class="btn-buy">Comprar</button>
+            </div>
+            <div class="container-reviews">
+                <div class="title-reviews">
+                    <h4>Reseñas</h4>
+                    <i class='bx bx-chevron-down' ></i>
+                </div>
+                <div class="text-reviews hidden">
+                    <p>-------------------</p>
+                </div>
+            </div>
+            <div class="container-social">
+                <span>Compartir</span>
+                <div class="container-buttons-social">
+                    <a href=""><i class='bx bxl-instagram' ></i></a>
+                    <a href=""><i class='bx bxl-facebook'></i></a>
+                    <a href=""><i class='bx bxl-twitter'></i></a>
+                    <a href=""><i class='bx bxl-whatsapp' ></i></a>
+                    <a href=""><i class='bx bxs-envelope' ></i></a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="container-related-products">
+        <h2>Productos relacionados</h2>
+        <div class="card-list-products">
+            <div class="card">
+                <div class="card-img">
+                    <img src="/images/helado_un_medio.png" alt="producto-1">
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3><a href="helado12kg.html">Helado de 1/2</a></h3>
+                    </div>
+                    <div class="price">
+                        $200
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="/images/heladoun_cuarto.png" alt="producto-2">
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3><a href="heladoun-cuarto.html">Helado de 1/4</a></h3>
+                    </div>
+                    <div class="price">
+                        $200
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="/images/bombonesshot.png" alt="producto-3">
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3><a href="./bombonesshot.html">Bombones Shot</a></h3>
+                    </div>
+                    <div class="price">
+                        $200
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="/images/familiar-3.png" alt="producto-4">
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3><a href="./heladofamiliar.html">Helado Familiar 3L</a></h3>
+                    </div>
+                    <div class="price">
+                        $200
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Footer</p>
+    </footer>
+
+    <script src="./scritp.js"></script>
+</body>
