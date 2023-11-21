@@ -83,7 +83,7 @@ function insertarCarrito(elemento){
     row.innerHTML =`
 
       <td>
-           <img src="${elemento.imagen}" width=5>
+           <img src="${elemento.imagen}" width=5px>
       </td>
 
       <td>
