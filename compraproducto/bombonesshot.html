@@ -10,14 +10,18 @@
 </head>
 <body>
     <header>
-        <a href="../index.html"><img src="/images/el_goat-removebg-preview.png"></a>
+        <nav> 
+            <a href="../index.html"><img src="../images/el_goat-removebg-preview.png"></a>
+        </nav>
     </header>
 
-    <div class="container-title">Helados</div>
-
-    <main>
+     <nav>
+        <div class="container-title">Helados</div>
+     </nav>
+    
+    <main >
         <div class="container-img">
-            <img src="/images/bombonesshot.png">
+            <img src="../images/bombonesshot.png">
         </div>
         <div class="container-info-product">
             <h1>Bombones Shot</h1>
@@ -33,9 +37,9 @@
                         <i class='bx bx-chevron-down' id="decrement"></i>
                     </div>
                 </div>
-                <button class="btn-add-to-cart">
+                <button class="btn-add-to-cart"  id="carrito">
                     <i class='bx bx-plus' ></i>
-                    Añadir al carrito
+                    <a href="../index.html" class="agregar-carrito" id="lista-1">Añadir al carrito</a>
                 </button>
                 <button class="btn-buy">Comprar</button>
             </div>
@@ -66,7 +70,7 @@
         <div class="card-list-products">
             <div class="card">
                 <div class="card-img">
-                    <img src="/images/palitobombon.png" alt="producto-1">
+                    <img src="../images/palitobombon.png" alt="producto-1">
                 </div>
                 <div class="info-card">
                     <div class="text-product">
@@ -79,7 +83,7 @@
             </div>
             <div class="card">
                 <div class="card-img">
-                    <img src="/images/heladoun_cuarto.png" alt="producto-2">
+                    <img src="../images/heladoun_cuarto.png" alt="producto-2">
                 </div>
                 <div class="info-card">
                     <div class="text-product">
@@ -92,7 +96,7 @@
             </div>
             <div class="card">
                 <div class="card-img">
-                    <img src="/images/1-kg-de-helado.png" alt="producto-3">
+                    <img src="../images/1-kg-de-helado.png" alt="producto-3">
                 </div>
                 <div class="info-card">
                     <div class="text-product">
@@ -105,7 +109,7 @@
             </div>
             <div class="card">
                 <div class="card-img">
-                    <img src="/images/familiar-3.png" alt="producto-4">
+                    <img src="../images/familiar-3.png" alt="producto-4">
                 </div>
                 <div class="info-card">
                     <div class="text-product">
@@ -123,6 +127,8 @@
         <p>Footer</p>
     </footer>
 
+    
     <script src="./scritp.js"></script>
+    <script src="../landing/script.js"></script>
 </body>
 </html>

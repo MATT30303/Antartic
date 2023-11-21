@@ -81,19 +81,15 @@ function leerDatosElemento(elemento){
 function insertarCarrito(elemento){
     const row = document.createElement('tr');
     row.innerHTML =`
-
+     
       <td>
-           <img src="${elemento.imagen}" width=5px>
+           ${elemento.titulo} 
       </td>
-
+     
       <td>
-            ${elemento.titulo}
+            ${elemento.precio} 
       </td>
-
-      <td>
-            ${elemento.precio}
-      </td>
-
+     
       <td>
             <a href="#"  class="borrar" data-id="${elemento.id}">X</a>
       </td>
