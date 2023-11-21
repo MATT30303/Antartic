@@ -15,14 +15,18 @@ body{
 
 img{
     max-width: 100%;
+    cursor: pointer;
 }
 
 header{
     background-color: #e2e9f0;
+    justify-content: center;
+    padding-top: 0;
+    padding-left: 5%;
+    padding-right: 5%;
     display: flex;
     align-items: center;
     padding: 30px;
-    justify-content: center;
 }
 
 .container-title{
