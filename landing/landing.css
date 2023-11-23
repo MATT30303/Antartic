@@ -344,3 +344,7 @@ hr {
 .comprar-producto:hover{
     background-color: #b5ccdc;
 }
+#searchIcon{
+    padding-left: 10px;
+    transform: scale(1.4);
+}

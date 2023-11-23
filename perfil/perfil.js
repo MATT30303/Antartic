@@ -68,15 +68,15 @@ function mostrarSeguridad() {
             <p class="tittle">SEGURIDAD</p>
             <div id="passActual">
                 <p>Contraseña actual</p>
-                <input type="text" value="Fabian">
+                <input type="text" value="">
             </div> 
             <div id="newPass">
                 <p>Nueva contraseña</p>
-                <input type="text" value="Barzola">
+                <input type="text" value="">
             </div>
             <div id="rePass">
                 <p>Repetir contraseña</p>
-                <input type="email" value="fabianbarzola2003@gmail.com">
+                <input type="email" value="">
             </div>
             <button type="button" id="btn">Actualizar</button>
     </article>
