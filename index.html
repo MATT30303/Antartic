@@ -1,48 +1,67 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
+  <head>
     <title>Antartic</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
-    <link rel="stylesheet" href="./landing/landing.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap" rel="stylesheet">
-    <link rel="icon" href="./images/el_goatv2.ico">
-</head>
-<body class="container">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./landing/landing.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta http-equiv=”Content-Type” content=”text/html; charset=ISO-8859-1″ />
+    <link rel="icon" href="./images/el_goatv2.ico" />
+  </head>
+  <body class="container">
     <header>
-       <nav>
-            <img src="./images/el_goat-removebg-preview.png">
-            <ul>
-                <li class="info"><a href="./login/sesion.html">Iniciar sesion</a></li>
-                <li class="user-ico"> <a href="./perfil/perfil.html"> <img id="user" src="./images/user-regular-60.png"> </a> </li>
-            </ul>
-        </nav>
+      <nav>
+        <img src="./images/el_goat-removebg-preview.png" />
+        <ul>
+          <li class="info"><a href="./login/sesion.html">Iniciar sesion</a></li>
+          <li class="user-ico">
+            <a href="./perfil/perfil.html">
+              <img id="user" src="./images/user-regular-60.png" />
+            </a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <nav id="menu">
-        <ul>
-            <li><input type="text" placeholder="Busqueda"><i class='bx bx-search' id="Btn"></i> </li>
-            <li><a href="#catalogo">Catalogo</a></li>
-            <li><a href="./contactanos/contacto.html">Contáctanos</a></li>
-            <li class="submenu">
-                <img src="./images/cart-regular-24.png" id="img-carrito" alt="">
-                <div id="carrito">
-                    <table id="lista-carrito">
-                       <thead>
-                          <tr>
-                             <th>Nombre</th>
-                             
-                             <th>Precio</th>
-                             <th></th>
-                          </tr>
-                       </thead>
-                       <tbody></tbody>
-                   </table> 
-                  <a href="#" id="Vaciar-carrito" class="btn-3">Vaciar Carrito</a>
-                </div>         
-            </li>            
-        </ul>
+      <ul>
+        <li>
+          <input type="text" placeholder="Busqueda" /><i
+            class="bx bx-search"
+            id="searchIcon"
+          ></i>
+        </li>
+        <li><a href="#catalogo">Catalogo</a></li>
+        <li><a href="./contactanos/contacto.html">Contactanos</a></li>
+        <li class="submenu">
+          <img src="./images/cart-regular-24.png" id="img-carrito" alt="" />
+          <div id="carrito">
+            <table id="lista-carrito">
+              <thead>
+                <tr>
+                  <th>Nombre</th>
+
+                  <th>Precio</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+            <a href="#" id="Vaciar-carrito" class="btn-3">Vaciar Carrito</a>
+          </div>
+        </li>
+      </ul>
     </nav>
     <div class="header">
         <div class="header-content container">
@@ -100,10 +119,69 @@
                 <div class="swiper-pagination"></div>
             </div>
         </div>
+      <div class="header-content container">
+        <div class="swiper mySwiper-1">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="header-info">
+                <div class="header-txt">
+                  <h1>Helado de 1KG</h1>
+                  <div class="prices">
+                    <p class="price-1">$199</p>
+                    <p class="price-2">$150</p>
+                  </div>
+                  <a href="./compraproducto/helado1kg.html" class="Btn-1">
+                    Comprar</a
+                  >
+                </div>
+                <div class="header-img">
+                  <img src="./images/1-kg-de-helado.png" />
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="header-info">
+                <div class="header-txt">
+                  <h1>Helado de 1/2</h1>
+                  <div class="prices">
+                    <p class="price-1">$199</p>
+                    <p class="price-2">$150</p>
+                  </div>
+                  <a href="./compraproducto/helado12kg.html" class="Btn-1"
+                    >Comprar</a
+                  >
+                </div>
+                <div class="header-img">
+                  <img src="./images/helado_un_medio.png" />
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="header-info">
+                <div class="header-txt">
+                  <h1>Helado de 1/4</h1>
+                  <div class="prices">
+                    <p class="price-1">$199</p>
+                    <p class="price-2">$150</p>
+                  </div>
+                  <a href="./compraproducto/heladoun-cuarto.html" class="Btn-1"
+                    >Comprar</a
+                  >
+                </div>
+                <div class="header-img">
+                  <img src="./images/heladoun_cuarto.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
     </div>
 
-    
-    <hr>
+    <hr />
 
     <section class="promo container"  >
         <h2>Promociones</h2>
@@ -175,6 +253,87 @@
                 </div>
             </div>
         </div>
+    <section class="promo container" id="lista-1">
+      <h2>Promociones</h2>
+      <div class="categorias">
+        <div class="categoria">
+          <div class="categoria-1">
+            <h3>Tarta Helada</h3>
+            <div class="precio">
+              <p class="price-1">$99</p>
+              <p class="price-2">$50</p>
+            </div>
+            <a href="#" class="agregar-carrito btn-3" data-id="1"
+              >Agregar al Carrito</a
+            >
+            <a href="./compraproducto/tortaHelada.html" class="comprar-producto"
+              >Comprar</a
+            >
+            <a href="./compraproducto/tortaHelada.html">asd</a>
+          </div>
+          <div class="categoria-img">
+            <img src="./images/tortaHelada.png" />
+          </div>
+        </div>
+        <div class="categoria">
+          <div class="categoria-1">
+            <h3>Bombones Shot</h3>
+            <div class="precio">
+              <p class="price-1">$99</p>
+              <p class="price-2">$50</p>
+            </div>
+            <a href="#" class="agregar-carrito btn-3" data-id="2"
+              >Agregar al Carrito</a
+            >
+            <a href="../compraproducto/bombonesshot.html"
+              ><p class="comprar-producto">Comprar</p></a
+            >
+          </div>
+          <div class="categoria-img">
+            <img src="./images/bombonesshot.png" />
+          </div>
+        </div>
+        <div class="categoria">
+          <div class="categoria-1">
+            <h3>Palito Bombon</h3>
+            <div class="precio">
+              <p class="price-1">$99</p>
+              <p class="price-2">$50</p>
+            </div>
+            <a href="#" class="agregar-carrito btn-3" data-id="3"
+              >Agregar al Carrito</a
+            >
+            <a
+              href="../compraproducto/palitosbombon.html"
+              class="comprar-producto"
+              >Comprar</a
+            >
+          </div>
+          <div class="categoria-img">
+            <img src="./images/palitobombon.png" />
+          </div>
+        </div>
+        <div class="categoria">
+          <div class="categoria-1">
+            <h3>Promo Familiar</h3>
+            <div class="precio">
+              <p class="price-1">$500</p>
+              <p class="price-2">$300</p>
+            </div>
+            <a href="#" class="agregar-carrito btn-3" data-id="4"
+              >Agregar al Carrito</a
+            >
+            <a
+              href="../compraproducto/heladofamiliar.html"
+              class="comprar-producto"
+              >Comprar</a
+            >
+          </div>
+          <div class="categoria-img">
+            <img src="./images/familiar-3.png" />
+          </div>
+        </div>
+      </div>
     </section>
 
     <hr>
@@ -283,9 +442,147 @@
            <div class="swiper-button-next"></div>
            <div class="swiper-button-prev"></div>
         </div>
+    <hr />
+
+    <section class="products container" id="lista-2">
+      <h2>Helados</h2>
+      <div class="swiper mySwiper-2">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="product">
+              <img src="./images/cucurucho.png" />
+              <div class="product-txt">
+                <h3>Cucurucho de 3 Bochas</h3>
+                <p>Gusto personalizado</p>
+                <p class="precio">$200</p>
+                <a href="#" class="agregar-carrito btn-3" data-id="5"
+                  >Agregar al Carrito</a
+                >
+                <a href="../compraproducto/cucurucho.html" class="btn-3"
+                  >Comprar</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product">
+              <img src="./images/bombonesshot.png" />
+              <div class="product-txt">
+                <h3>Caja de bombones Shots</h3>
+                <p>Gusto personalizado</p>
+                <p class="precio">$200</p>
+                <a href="#" class="agregar-carrito btn-3" data-id="6"
+                  >Agregar al Carrito</a
+                >
+                <a href="../compraproducto/bombonesshot.html" class="btn-3"
+                  >Comprar</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product">
+              <img src="./images/1-kg-de-helado.png" />
+              <div class="product-txt">
+                <h3>Helado 1KG</h3>
+                <p>Gusto personalizado</p>
+                <p class="precio">$200</p>
+                <a href="#" class="agregar-carrito btn-3" data-id="7"
+                  >Agregar al Carrito</a
+                >
+                <a href="../compraproducto/helado1kg.html" class="btn-3"
+                  >Comprar</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product">
+              <img src="./images/helado_un_medio.png" />
+              <div class="product-txt">
+                <h3>Helado 1/2</h3>
+                <p>Gusto personalizado</p>
+                <p class="precio">$200</p>
+                <a href="#" class="agregar-carrito btn-3" data-id="8"
+                  >Agregar al Carrito</a
+                >
+                <a href="../compraproducto/helado12kg.html" class="btn-3"
+                  >Comprar</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product">
+              <img src="./images/palitobombon.png" />
+              <div class="product-txt">
+                <h3>Palito Bombon</h3>
+                <p>Gusto personalizado</p>
+                <p class="precio">$200</p>
+                <a href="#" class="agregar-carrito btn-3" data-id="9"
+                  >Agregar al Carrito</a
+                >
+                <a href="../compraproducto/palitosbombon.html" class="btn-3"
+                  >Comprar</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product">
+              <img src="./images/tortaHelada.png" />
+              <div class="product-txt">
+                <h3>Torta Helada</h3>
+                <p>Gusto personalizado</p>
+                <p class="precio">$200</p>
+                <a href="#" class="agregar-carrito btn-3" data-id="10"
+                  >Agregar al Carrito</a
+                >
+                <a href="../compraproducto/tortaHelada.html" class="btn-3"
+                  >Comprar</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product">
+              <img src="./images/heladoun_cuarto.png" />
+              <div class="product-txt">
+                <h3>Helado 1/4</h3>
+                <p>Gusto personalizado</p>
+                <p class="precio">$200</p>
+                <a href="#" class="agregar-carrito btn-3" data-id="11"
+                  >Agregar al Carrito</a
+                >
+                <a href="../compraproducto/heladoun-cuarto.html" class="btn-3"
+                  >Comprar</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product">
+              <img src="./images/familiar-3.png" />
+              <div class="product-txt">
+                <h3>Familiar</h3>
+                <p>Gusto personalizado</p>
+                <p class="precio">$200</p>
+                <a href="#" class="agregar-carrito btn-3" data-id="12"
+                  >Agregar al Carrito</a
+                >
+                <a href="../compraproducto/heladofamiliar.html" class="btn-3"
+                  >Comprar</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
     </section>
 
-    <hr>
+    <hr />
 
     <section class="products container" id="lista-3">
         <h2> Nuevos Helados</h2>
@@ -396,53 +693,180 @@
            <div class="swiper-button-next"></div>
            <div class="swiper-button-prev"></div>
         </div>
+      <h2>Nuevos Helados</h2>
+      <div class="swiper mySwiper-3">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="product">
+              <img src="./images/cucurucho.png" />
+              <div class="product-txt">
+                <h3>Cucurucho de 3 Bochas</h3>
+                <p>Gusto personalizado</p>
+                <p class="precio">$200</p>
+                <a href="#" class="agregar-carrito btn-3" data-id="5"
+                  >Agregar al Carrito</a
+                >
+              </div>
+              <a href="../compraproducto/cucurucho.html" class="btn-3"
+                >Comprar</a
+              >
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product">
+              <img src="./images/bombonesshot.png" />
+              <div class="product-txt">
+                <h3>Caja de bombones Shots</h3>
+                <p>Gusto personalizado</p>
+                <p class="precio">$200</p>
+                <a href="#" class="agregar-carrito btn-3" data-id="6"
+                  >Agregar al Carrito</a
+                >
+              </div>
+              <a href="../compraproducto/bombonesshot.html" class="btn-3"
+                >Comprar</a
+              >
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product">
+              <img src="./images/1-kg-de-helado.png" />
+              <div class="product-txt">
+                <h3>Helado 1KG</h3>
+                <p>Gusto personalizado</p>
+                <p class="precio">$200</p>
+                <a href="#" class="agregar-carrito btn-3" data-id="7"
+                  >Agregar al Carrito</a
+                >
+              </div>
+              <a href="../compraproducto/helado1kg.html" class="btn-3"
+                >Comprar</a
+              >
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product">
+              <img src="./images/helado_un_medio.png" />
+              <div class="product-txt">
+                <h3>Helado 1/2</h3>
+                <p>Gusto personalizado</p>
+                <p class="precio">$200</p>
+                <a href="#" class="agregar-carrito btn-3" data-id="8"
+                  >Agregar al Carrito</a
+                >
+              </div>
+              <a href="../compraproducto/helado12kg.html" class="btn-3"
+                >Comprar</a
+              >
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product">
+              <img src="./images/palitobombon.png" />
+              <div class="product-txt">
+                <h3>Palito Bombon</h3>
+                <p>Gusto personalizado</p>
+                <p class="precio">$200</p>
+                <a href="#" class="agregar-carrito btn-3" data-id="9"
+                  >Agregar al Carrito</a
+                >
+              </div>
+              <a href="../compraproducto/palitosbombon.html" class="btn-3"
+                >Comprar</a
+              >
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product">
+              <img src="./images/tortaHelada.png" />
+              <div class="product-txt">
+                <h3>Torta Helada</h3>
+                <p>Gusto personalizado</p>
+                <p class="precio">$200</p>
+                <a href="#" class="agregar-carrito btn-3" data-id="10"
+                  >Agregar al Carrito</a
+                >
+              </div>
+              <a href="../compraproducto/tortaHelada.html" class="btn-3"
+                >Comprar</a
+              >
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product">
+              <img src="./images/heladoun_cuarto.png" />
+              <div class="product-txt">
+                <h3>Helado 1/4</h3>
+                <p>Gusto personalizado</p>
+                <p class="precio">$200</p>
+                <a href="#" class="agregar-carrito btn-3" data-id="11"
+                  >Agregar al Carrito</a
+                >
+              </div>
+              <a href="../compraproducto/heladoun-cuarto.html" class="btn-3"
+                >Comprar</a
+              >
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product">
+              <img src="./images/familiar-3.png" />
+              <div class="product-txt">
+                <h3>Familiar</h3>
+                <p>Gusto personalizado</p>
+                <p class="precio">$200</p>
+                <a href="#" class="agregar-carrito btn-3" data-id="12"
+                  >Agregar al Carrito</a
+                >
+              </div>
+              <a
+                href="./compraproducto/heladofamiliar.html"
+                class="comprar-producto"
+                >Comprar</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
     </section>
 
-    <hr>
-
+    <hr />
 
     <footer class="footer container">
+      <div class="link">
+        <h2>Lorem</h2>
+        <ul>
+          <li><a href="#">Lorem</a></li>
+          <li><a href="#">Lorem</a></li>
+          <li><a href="#">Lorem</a></li>
+          <li><a href="#">Lorem</a></li>
+        </ul>
+      </div>
 
-        <div class="link">
+      <div class="link">
+        <h2>Lorem</h2>
+        <ul>
+          <li><a href="#">Lorem</a></li>
+          <li><a href="#">Lorem</a></li>
+          <li><a href="#">Lorem</a></li>
+          <li><a href="#">Lorem</a></li>
+        </ul>
+      </div>
 
-               <h2>Lorem </h2>
-               <ul>
-                 <li><a href="#">Lorem</a></li>
-                 <li><a href="#">Lorem</a></li>
-                 <li><a href="#">Lorem</a></li>
-                 <li><a href="#">Lorem</a></li>
-               </ul>
-
-        </div>
-
-
-        <div class="link">
-
-            <h2>Lorem </h2>
-            <ul>
-              <li><a href="#">Lorem</a></li>
-              <li><a href="#">Lorem</a></li>
-              <li><a href="#">Lorem</a></li>
-              <li><a href="#">Lorem</a></li>
-            </ul>
-
-     </div>
-
-     <div class="link">
-
-        <h2>Lorem </h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quo amet nostrum ad vero, saepe beatae, illum obcaecati magni incidunt, assumenda dolorum sunt enim ipsum similique et? Dolores,  asperiores ipsam?
+      <div class="link">
+        <h2>Lorem</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quo
+          amet nostrum ad vero, saepe beatae, illum obcaecati magni incidunt,
+          assumenda dolorum sunt enim ipsum similique et? Dolores, asperiores
+          ipsam?
         </p>
-
-     </div>
-
-
+      </div>
     </footer>
 
-
-    
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="./landing/script.js"></script>
-
-</body>
+  </body>
 </html>

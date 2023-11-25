@@ -1,58 +1,245 @@
-
-*{
-    margin: 0;
-    padding: 0;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
-body{
-    background-color: #f6f4ee;
-    width: 100%;
-    height: 100vh;
-    font-family: 'Montserrat', sans-serif;
-}
-header{
-    width: 100%;
-    background-color: #e2e9f0;
-    display: flex;
-    justify-content: space-between;
-}
-img{
-    margin-left: 700px;
-}
-a{
-    text-decoration: none;
-    margin: auto 0;
-    margin-right: 150px;
-    background-color: #b5ccdc;
-    border: solid thin #b5ccdc;
-    border-radius: 5px;
-    color: #333;
-    padding: 10px;
-    font-size: large;
-    transition: 0.4s ease;
-}
-a:hover{
-    background-color: transparent;
-    border: solid thin #b5ccdc;
+body {
+	width: 100%;
+	max-height: 100%;
+	font-family: "Montserrat", sans-serif;
+	background-image: url(../images/sharpen_fondo_perfil.png); 
+	position: absolute;
+	inset: 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
+	display: flex;
+	flex-direction: column;
 }
 
+#arriba {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	background-color: #e2e9f0;
+}
+a {
+	text-decoration: none;
+	margin: auto 0;
+	margin-right: 150px;
+	background-color: #b5ccdc;
+	border: solid thin #b5ccdc;
+	border-radius: 5px;
+	color: #333;
+	padding: 10px;
+	font-size: large;
+	transition: 0.4s ease;
+}
+a:hover {
+	background-color: transparent;
+	border: solid thin #b5ccdc;
+}
+img {
+	width: 250px;
+}
 
-img{
-    width: 250px;
+#list {
+	list-style: none;
+	margin: 0 auto;
+	text-align: center;
+	width: 60%;
 }
-ul{
-    position: fixed;
-    height: 100%;
-    background-color: #b5ccdc;
-    width: 15%;
+.tittle {
+	font-size: 25px;
+	font-weight: bold;
+	padding-top: 5px;
+	margin-bottom: 30px;
 }
-.menu-item{
-    padding-top: 100px;
-    padding-bottom: 100px;
-    width: 100%;
-    text-align: center;
-    font-size: large;
-    cursor: pointer;
+
+#name p,
+#last-name p,
+#phone p {
+	text-align: start;
+	width: 100px;
+	padding-bottom: 10px;
 }
-.menu-item.is-active{
-    background-color: #96beda;
+
+#mail p {
+	text-align: start;
+	width: 80px;
+	padding-bottom: 10px;
+}
+
+input {
+	padding: 10px;
+	width: 300px;
+	outline: none;
+	font-size: medium;
+}
+#btn {
+	font-size: large;
+	padding: 10px 15px;
+	border: solid thin #b5ccdc;
+	border-radius: 5px;
+	background-color: #e2e9f0;
+	box-shadow: 0 5px 7px rgba(0, 0, 0, 0.3);
+	transition: 0.4s ease;
+	margin-top: 10px;
+}
+#btn:hover {
+	cursor: pointer;
+	background-color: transparent;
+}
+
+#passActual p,
+#newPass p,
+#rePass p {
+	text-align: start;
+	width: 180px;
+	padding-bottom: 10px;
+	margin-right: 10px;
+}
+
+#imgpago {
+	width: 100px;
+}
+
+#txtandimg {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#metodo {
+	padding-top: 5%;
+	text-align: center;
+}
+.optionsImg {
+	width: 100px;
+	transition: 0.2s ease;
+	filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+}
+
+#pagotxt {
+	display: flex;
+	justify-content: center;
+}
+
+.optionsImg:hover {
+	cursor: pointer;
+	transform: scale(1.2);
+}
+
+.optionsImg.active {
+	filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 1));
+	transform: scale(1.2);
+}
+
+.main {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.aside {
+	display: flex;
+	width: 120px;
+	height: 511px;
+	overflow: hidden;
+}
+
+.barra {
+	border-radius: 10px 0px 0px 10px;
+	width: 100%;
+	background-color: #6994b3;
+	padding: 0px 20px;
+}
+.botonesNav {
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0px 20px;
+}
+
+#btnCuenta,
+#btnSeguridad,
+#btnMetodo {
+	padding-top: 70%;
+	padding-bottom: 70%;
+	margin: 0px;
+	width: 100px;
+	border: none;
+	font-family: "Montserrat", sans-serif;
+	font-size: larger;
+	background-color: #6994b3;
+}
+
+.item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #b5ccdc;
+	border-radius: 0px 10px 10px 0px;
+	width: 600px;
+	height: 100%;
+	/* gap: 40px; */
+}
+
+.item div {
+	display: flex;
+	width: 100%;
+}
+
+#name,
+#passActual,
+#last-name,
+#newPass,
+#mail,
+#rePass,
+#phone {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 40px;
+}
+
+.info {
+	margin: 0;
+	height: 511px;
+}
+
+.opciones {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	justify-items: center;
+	align-items: center;
+}
+
+.opciones-img {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
+}
+
+#method {
+	display: flex;
+	flex-direction: column;
+}
+
+#method p {
+	padding: 0;
+}
+#tituloPerfil{
+	font-size: x-large;
 }

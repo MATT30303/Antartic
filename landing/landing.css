@@ -346,3 +346,7 @@ hr {
     background-color: #c5af7d;
     color: #f6f4ee;
 }
+#searchIcon{
+    padding-left: 10px;
+    transform: scale(1.4);
+}
