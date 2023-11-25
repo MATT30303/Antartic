@@ -23,10 +23,16 @@ btnDecrement.addEventListener('click',() =>{
 
 
 const toggleReviews = document.querySelector('.title-reviews')
+const toggleMaps = document.querySelector('.title-maps')
 
 const contentReviews = document.querySelector('.text-reviews')
+const contentMaps = document.querySelector('.text-maps')
 
 toggleReviews.addEventListener('click', () => {
     contentReviews.classList.toggle('hidden')
+});
+
+toggleMaps.addEventListener('click', () => {
+    contentMaps.classList.toggle('hidden')
 });
 

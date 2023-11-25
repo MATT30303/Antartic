@@ -230,6 +230,24 @@ main{
 
 }
 
+.title-maps{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor:pointer
+}
+.title-maps h4{
+    font-weight: 300;
+    color:#666;
+    font-size: 14px;
+}
+.text-maps{
+    font-size: 13px;
+    color: #252525;
+    line-height: 22px;
+    margin-top: 25px;
+}
+
 .container-social{
     display: flex;
     justify-content: space-between;
