@@ -38,6 +38,21 @@ var swiper = new Swiper(".mySwiper-3", {
     
 });
 
+//Catalogo
+
+document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+});
+
+
 //Carito
 const carrito = document.getElementById('carrito');
 const elemetos1 = document.getElementById('lista-1');
@@ -59,8 +74,6 @@ const elemetos16 = document.getElementById('lista-16');
 const elemetos17 = document.getElementById('lista-17');
 const elemetos18 = document.getElementById('lista-18');
 const elemetos19 = document.getElementById('lista-19');
-const elemetos20 = document.getElementById('lista-20');
-
 const lista= document.querySelector('#lista-carrito tbody');
 const vaciarCarritoBtn = document.getElementById('Vaciar-carrito');
 
@@ -87,7 +100,6 @@ function cargarEventListeners(){
   elemetos17.addEventListener('click',comprarElemento);
   elemetos18.addEventListener('click',comprarElemento);
   elemetos19.addEventListener('click',comprarElemento);
-  elemento20.addEventListener('click',comprarElemento);
   carrito.addEventListener('click',eliminarElemento);
   vaciarCarritoBtn.addEventListener('click',vaciarCarrito); 
 }
@@ -154,4 +166,10 @@ function vaciarCarrito(){
     }
     return false;
 }
+
+
+
+
+
+
 

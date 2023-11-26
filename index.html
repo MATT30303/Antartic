@@ -42,7 +42,21 @@
             id="searchIcon"
           ></i>
         </li>
-        <li><a href="#catalogo">Catalogo</a></li>
+        <li class="submenu">
+         <a href="">Catalogo</a>
+          <div id="catalogo">
+            <table id="lista-catalogos">
+              <thead>
+                <h2>Secciones</h2>
+                <tr>
+                  <a href="#promociones" class="btn-3">Promociones</a>
+                  <a href="#helados" class=" btn-3">Helados</a>
+                  <a href="#nuevos-helados" class="btn-3">Nuevos Helados</a>
+                </tr>
+              </thead>
+            </table>
+          </div>
+        </li>
         <li><a href="./contactanos/contacto.html">Contactanos</a></li>
         <li class="submenu">
           <img src="./images/cart-regular-24.png" id="img-carrito" alt="" />
@@ -58,7 +72,7 @@
               </thead>
               <tbody></tbody>
             </table>
-            <a href="#" id="Vaciar-carrito" class="btn-3">Vaciar Carrito</a>
+            <a href="" id="Vaciar-carrito" class="btn-3">Vaciar Carrito</a>
           </div>
         </li>
       </ul>
@@ -183,7 +197,7 @@
 
     <hr />
 
-    <section class="promo container"  >
+    <section class="promo container" id="promociones" >
         <h2>Promociones</h2>
         <div class="categorias">
             <div class="categoria">
@@ -254,10 +268,9 @@
             </div>
         </div>
 
-
-    <hr>
+ <hr>
     
-    <section class="products container">
+    <section class="products container" id="helados">
         <h2>Helados</h2>
         <div class="swiper mySwiper-2">
             <div class="swiper-wrapper">
@@ -361,13 +374,15 @@
            <div class="swiper-button-next"></div>
            <div class="swiper-button-prev"></div>
         </div>
-    <hr />
+
+
+
+  <hr>
 
   
 
-    <hr />
 
-    <section class="products container">
+    <section class="products container" id="nuevos-helados">
         <h2> Nuevos Helados</h2>
         <div class="swiper mySwiper-3">
             <div class="swiper-wrapper">
@@ -476,39 +491,10 @@
            <div class="swiper-button-next"></div>
            <div class="swiper-button-prev"></div>
         </div>
-     
+      
 
-
-    <footer class="footer container">
-      <div class="link">
-        <h2>Lorem</h2>
-        <ul>
-          <li><a href="#">Lorem</a></li>
-          <li><a href="#">Lorem</a></li>
-          <li><a href="#">Lorem</a></li>
-          <li><a href="#">Lorem</a></li>
-        </ul>
-      </div>
-
-      <div class="link">
-        <h2>Lorem</h2>
-        <ul>
-          <li><a href="#">Lorem</a></li>
-          <li><a href="#">Lorem</a></li>
-          <li><a href="#">Lorem</a></li>
-          <li><a href="#">Lorem</a></li>
-        </ul>
-      </div>
-
-      <div class="link">
-        <h2>Lorem</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quo
-          amet nostrum ad vero, saepe beatae, illum obcaecati magni incidunt,
-          assumenda dolorum sunt enim ipsum similique et? Dolores, asperiores
-          ipsam?
-        </p>
-      </div>
+    <footer class="footer">
+      <p>Todos los derechos de autor se reservados &copy;2023, Antartic</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="./landing/script.js"></script>
