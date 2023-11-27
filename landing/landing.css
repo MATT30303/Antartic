@@ -250,10 +250,11 @@ input{
     border-radius: 25px;
     margin-top: 40px;
     box-shadow: 0 5px 7px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease;
 }
 
 .Btn-1:hover {
-    background-color: #ddcda6;
+    background-color: transparent;
     color: #333;
 }
 
@@ -330,6 +331,7 @@ hr {
     border-radius: 25px;
     margin-top: 15px;
     box-shadow: 0 5px 7px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease;
 }
 
 .btn-3:hover{
@@ -346,6 +348,7 @@ hr {
     border-radius: 25px;
     margin-top: 15px;
     box-shadow: 0 5px 7px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease;
 }
 
 .comprar-producto:hover{
